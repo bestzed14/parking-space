@@ -73,7 +73,8 @@ def register_view(request):
 
 def send_verification_email(user):
     token = user.profile.verification_token
-    url = f"http://127.0.0.1:8000/EntryPage/verify-email/{token}/"  #正式網域要記得換
+    # url = f"http://127.0.0.1:8000/EntryPage/verify-email/{token}/"  #正式網域要記得換
+    url = f"parking-space-06b78525c978.herokuapp.com/EntryPage/verify-email/{token}/"  #正式網域要記得換
     subject = "請驗證你的帳號"
     message = f"請點擊以下連結驗證帳號：\n\n{url}"
     send_mail(subject, message, settings.EMAIL_HOST_USER, [user.email])
