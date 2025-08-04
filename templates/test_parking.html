@@ -1,0 +1,51 @@
+<div id="output">載入中...</div>
+
+<script>
+ const city = "Taipei";
+  const lat = 25.0338352;
+  const lon = 121.5644995;
+// 台中座標 24.202133, 120.707060
+//25.0338352   121.5644995
+  // 第一步：更新資料
+  fetch(`/update_PSA_CP/?city=${city}`)
+    .then(res => {
+      if (!res.ok) throw new Error("更新資料失敗");
+      return fetch(`/get_merged_parking_data/?city=${city}`);
+    })
+    .then(response => response.json())
+    .then(result => {
+      const data = result.data;
+      const container = document.getElementById('output');
+
+      if (!data.length) {
+        container.innerHTML = '⚠️ 查無資料';
+        return;
+      }
+
+      container.innerHTML = `<h2>${city} 停車場資訊</h2><ul>` +
+        data.map(item => `
+          <li>
+            <strong>${item.name}</strong> (${item.car_park_id})<br>
+            📍 位置：${item.lat}, ${item.lon}<br>
+            📍 地址:${item.address}<br>
+            📝 描述：${item.description || '無'}<br>
+            📝 費用：${item.faredescription || '無'}<br>
+            📞 電話：${item.emergency_phone || '無'}<br>
+            🚗 停車位：剩餘 ${item.available_spaces ?? '？'} / ${item.total_spaces ?? '？'}
+          </li>
+        `).join('') + '</ul>';
+
+      return fetch(`/nearby_parking/?lat=${lat}&lon=${lon}&city=${city}`);
+    })
+    .then(res => res.json())
+    .then(data => {
+      console.log("✅ 最近的停車場", data.data);
+    })
+    .catch(error => {
+      console.error('❌ 錯誤:', error);
+      document.getElementById('output').innerText = '⚠️ 發生錯誤';
+    });
+  fetch(`/cheapest_nearby_parking/?lat=${lat}&lon=${lon}&city=${city}`)
+  .then(res => res.json())
+  .then(data => console.log("💰 最便宜最近的停車場：", data.data));
+</script>

@@ -1,0 +1,3106 @@
+{
+    "UpdateTime": "2025-08-03T22:57:28+08:00",
+    "UpdateInterval": -1,
+    "SrcUpdateTime": "2025-08-03T22:57:00+08:00",
+    "SrcUpdateInterval": 60,
+    "AuthorityCode": "TPE",
+    "ParkingAvailabilities": [
+        {
+            "CarParkID": "001",
+            "CarParkName": {
+                "Zh_tw": "府前廣場地下停車場"
+            },
+            "TotalSpaces": 1998,
+            "AvailableSpaces": 898,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 1998,
+                    "AvailableSpaces": 898
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 40,
+                    "AvailableSpaces": 11
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 45,
+                    "AvailableSpaces": 6
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:55+08:00"
+        },
+        {
+            "CarParkID": "002",
+            "CarParkName": {
+                "Zh_tw": "松壽廣場地下停車場"
+            },
+            "TotalSpaces": 446,
+            "AvailableSpaces": 398,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 446,
+                    "AvailableSpaces": 398
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 8
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 9,
+                    "AvailableSpaces": 4
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:54+08:00"
+        },
+        {
+            "CarParkID": "003",
+            "CarParkName": {
+                "Zh_tw": "臺北市災害應變中心地下停車場"
+            },
+            "TotalSpaces": 169,
+            "AvailableSpaces": 23,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 169,
+                    "AvailableSpaces": 23
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 197,
+                    "AvailableSpaces": 79
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 3,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 1
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:48+08:00"
+        },
+        {
+            "CarParkID": "005",
+            "CarParkName": {
+                "Zh_tw": "立農公園地下停車場"
+            },
+            "TotalSpaces": 204,
+            "AvailableSpaces": 4,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 204,
+                    "AvailableSpaces": 4
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 95,
+                    "AvailableSpaces": 8
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:59+08:00"
+        },
+        {
+            "CarParkID": "007",
+            "CarParkName": {
+                "Zh_tw": "萬華國中地下停車場"
+            },
+            "TotalSpaces": 508,
+            "AvailableSpaces": 27,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 508,
+                    "AvailableSpaces": 27
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 211,
+                    "AvailableSpaces": 88
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 5
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 11,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 11,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:54+08:00"
+        },
+        {
+            "CarParkID": "014",
+            "CarParkName": {
+                "Zh_tw": "興雅國中地下停車場"
+            },
+            "TotalSpaces": 447,
+            "AvailableSpaces": 128,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 447,
+                    "AvailableSpaces": 128
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 9,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:01+08:00"
+        },
+        {
+            "CarParkID": "015",
+            "CarParkName": {
+                "Zh_tw": "峨眉立體停車場"
+            },
+            "TotalSpaces": 518,
+            "AvailableSpaces": 251,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 518,
+                    "AvailableSpaces": 251
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 1653,
+                    "AvailableSpaces": 1132
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 11,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 11,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:59+08:00"
+        },
+        {
+            "CarParkID": "016",
+            "CarParkName": {
+                "Zh_tw": "中山堂地下停車場"
+            },
+            "TotalSpaces": 441,
+            "AvailableSpaces": 290,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 441,
+                    "AvailableSpaces": 290
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 9,
+                    "AvailableSpaces": 6
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 9,
+                    "AvailableSpaces": 2
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:52+08:00"
+        },
+        {
+            "CarParkID": "018",
+            "CarParkName": {
+                "Zh_tw": "洛陽綜合立體停車場"
+            },
+            "TotalSpaces": 1672,
+            "AvailableSpaces": 979,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 1672,
+                    "AvailableSpaces": 979
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 274,
+                    "AvailableSpaces": 234
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:01+08:00"
+        },
+        {
+            "CarParkID": "019",
+            "CarParkName": {
+                "Zh_tw": "塔城公園地下停車場"
+            },
+            "TotalSpaces": 157,
+            "AvailableSpaces": 61,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 157,
+                    "AvailableSpaces": 61
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:55+08:00"
+        },
+        {
+            "CarParkID": "020",
+            "CarParkName": {
+                "Zh_tw": "百齡高中地下停車場"
+            },
+            "TotalSpaces": 231,
+            "AvailableSpaces": 207,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 231,
+                    "AvailableSpaces": 207
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:55:39+08:00"
+        },
+        {
+            "CarParkID": "021",
+            "CarParkName": {
+                "Zh_tw": "前港公園地下停車場"
+            },
+            "TotalSpaces": 528,
+            "AvailableSpaces": 112,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 528,
+                    "AvailableSpaces": 112
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:29+08:00"
+        },
+        {
+            "CarParkID": "022",
+            "CarParkName": {
+                "Zh_tw": "五分埔公園地下停車場"
+            },
+            "TotalSpaces": 209,
+            "AvailableSpaces": 61,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 209,
+                    "AvailableSpaces": 61
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:25+08:00"
+        },
+        {
+            "CarParkID": "023",
+            "CarParkName": {
+                "Zh_tw": "民權公園地下停車場"
+            },
+            "TotalSpaces": 716,
+            "AvailableSpaces": 54,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 716,
+                    "AvailableSpaces": 54
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 14,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 15,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:35+08:00"
+        },
+        {
+            "CarParkID": "024",
+            "CarParkName": {
+                "Zh_tw": "金華公園地下停車場"
+            },
+            "TotalSpaces": 193,
+            "AvailableSpaces": 35,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 193,
+                    "AvailableSpaces": 35
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:32+08:00"
+        },
+        {
+            "CarParkID": "025",
+            "CarParkName": {
+                "Zh_tw": "古亭國中地下停車場"
+            },
+            "TotalSpaces": 260,
+            "AvailableSpaces": 23,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 260,
+                    "AvailableSpaces": 23
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 1,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:02+08:00"
+        },
+        {
+            "CarParkID": "027",
+            "CarParkName": {
+                "Zh_tw": "景華公園地下停車場"
+            },
+            "TotalSpaces": 749,
+            "AvailableSpaces": 16,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 749,
+                    "AvailableSpaces": 16
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-07-23T10:24:51+08:00"
+        },
+        {
+            "CarParkID": "028",
+            "CarParkName": {
+                "Zh_tw": "松山高中地下停車場"
+            },
+            "TotalSpaces": 226,
+            "AvailableSpaces": 118,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 226,
+                    "AvailableSpaces": 118
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:19+08:00"
+        },
+        {
+            "CarParkID": "029",
+            "CarParkName": {
+                "Zh_tw": "東湖國小地下停車場"
+            },
+            "TotalSpaces": 359,
+            "AvailableSpaces": 19,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 359,
+                    "AvailableSpaces": 19
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 109,
+                    "AvailableSpaces": 3
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:54+08:00"
+        },
+        {
+            "CarParkID": "030",
+            "CarParkName": {
+                "Zh_tw": "大稻埕公園地下停車場"
+            },
+            "TotalSpaces": 198,
+            "AvailableSpaces": 42,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 198,
+                    "AvailableSpaces": 42
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:55:07+08:00"
+        },
+        {
+            "CarParkID": "031",
+            "CarParkName": {
+                "Zh_tw": "附中公園地下停車場"
+            },
+            "TotalSpaces": 115,
+            "AvailableSpaces": 33,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 115,
+                    "AvailableSpaces": 33
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:53+08:00"
+        },
+        {
+            "CarParkID": "032",
+            "CarParkName": {
+                "Zh_tw": "西松高中地下停車場"
+            },
+            "TotalSpaces": 341,
+            "AvailableSpaces": 55,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 341,
+                    "AvailableSpaces": 55
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:28+08:00"
+        },
+        {
+            "CarParkID": "033",
+            "CarParkName": {
+                "Zh_tw": "進安公園地下停車場"
+            },
+            "TotalSpaces": 151,
+            "AvailableSpaces": 74,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 151,
+                    "AvailableSpaces": 74
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 3,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 3,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:37+08:00"
+        },
+        {
+            "CarParkID": "034",
+            "CarParkName": {
+                "Zh_tw": "辛亥國小地下停車場"
+            },
+            "TotalSpaces": 129,
+            "AvailableSpaces": 0,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 129,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 2,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:51+08:00"
+        },
+        {
+            "CarParkID": "035",
+            "CarParkName": {
+                "Zh_tw": "成淵高中地下停車場"
+            },
+            "TotalSpaces": 269,
+            "AvailableSpaces": 131,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 269,
+                    "AvailableSpaces": 131
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 1,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 1
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:59+08:00"
+        },
+        {
+            "CarParkID": "036",
+            "CarParkName": {
+                "Zh_tw": "大豐公園地下停車場"
+            },
+            "TotalSpaces": 234,
+            "AvailableSpaces": 45,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 234,
+                    "AvailableSpaces": 45
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:28+08:00"
+        },
+        {
+            "CarParkID": "037",
+            "CarParkName": {
+                "Zh_tw": "大安高工地下停車場"
+            },
+            "TotalSpaces": 522,
+            "AvailableSpaces": 172,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 522,
+                    "AvailableSpaces": 172
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:53+08:00"
+        },
+        {
+            "CarParkID": "038",
+            "CarParkName": {
+                "Zh_tw": "成德立體停車場"
+            },
+            "TotalSpaces": 180,
+            "AvailableSpaces": 5,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 180,
+                    "AvailableSpaces": 5
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "039",
+            "CarParkName": {
+                "Zh_tw": "社園立體停車場"
+            },
+            "TotalSpaces": 266,
+            "AvailableSpaces": 13,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 266,
+                    "AvailableSpaces": 13
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "040",
+            "CarParkName": {
+                "Zh_tw": "健康國小地下停車場"
+            },
+            "TotalSpaces": 193,
+            "AvailableSpaces": 30,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 193,
+                    "AvailableSpaces": 30
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:52+08:00"
+        },
+        {
+            "CarParkID": "041",
+            "CarParkName": {
+                "Zh_tw": "忠信廣場地下停車場"
+            },
+            "TotalSpaces": 314,
+            "AvailableSpaces": 105,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 314,
+                    "AvailableSpaces": 105
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 255,
+                    "AvailableSpaces": 179
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:31+08:00"
+        },
+        {
+            "CarParkID": "042",
+            "CarParkName": {
+                "Zh_tw": "建成國中地下停車場"
+            },
+            "TotalSpaces": 326,
+            "AvailableSpaces": 233,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 326,
+                    "AvailableSpaces": 233
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 160,
+                    "AvailableSpaces": 68
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:39+08:00"
+        },
+        {
+            "CarParkID": "043",
+            "CarParkName": {
+                "Zh_tw": "興中立體停車場"
+            },
+            "TotalSpaces": 633,
+            "AvailableSpaces": 147,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 633,
+                    "AvailableSpaces": 147
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 152,
+                    "AvailableSpaces": 11
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:35+08:00"
+        },
+        {
+            "CarParkID": "044",
+            "CarParkName": {
+                "Zh_tw": "青年公園高爾夫球場地下停車場"
+            },
+            "TotalSpaces": 331,
+            "AvailableSpaces": 47,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 331,
+                    "AvailableSpaces": 47
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 155,
+                    "AvailableSpaces": 20
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 1,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 3
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 12,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:01+08:00"
+        },
+        {
+            "CarParkID": "048",
+            "CarParkName": {
+                "Zh_tw": "信義廣場地下停車場"
+            },
+            "TotalSpaces": 366,
+            "AvailableSpaces": 238,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 366,
+                    "AvailableSpaces": 238
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 190,
+                    "AvailableSpaces": 58
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:31+08:00"
+        },
+        {
+            "CarParkID": "049",
+            "CarParkName": {
+                "Zh_tw": "大業立體停車場"
+            },
+            "TotalSpaces": 122,
+            "AvailableSpaces": 73,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 122,
+                    "AvailableSpaces": 73
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:55:08+08:00"
+        },
+        {
+            "CarParkID": "052",
+            "CarParkName": {
+                "Zh_tw": "民生社區中心地下停車場"
+            },
+            "TotalSpaces": 151,
+            "AvailableSpaces": 21,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 151,
+                    "AvailableSpaces": 21
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "053",
+            "CarParkName": {
+                "Zh_tw": "民生立體停車場"
+            },
+            "TotalSpaces": 457,
+            "AvailableSpaces": 114,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 457,
+                    "AvailableSpaces": 114
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:29+08:00"
+        },
+        {
+            "CarParkID": "054",
+            "CarParkName": {
+                "Zh_tw": "北寧路地下停車場"
+            },
+            "TotalSpaces": 76,
+            "AvailableSpaces": 58,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 76,
+                    "AvailableSpaces": 58
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "055",
+            "CarParkName": {
+                "Zh_tw": "市民大道塔城段停車場"
+            },
+            "TotalSpaces": 254,
+            "AvailableSpaces": 101,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 254,
+                    "AvailableSpaces": 101
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 11,
+                    "AvailableSpaces": 4
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:50+08:00"
+        },
+        {
+            "CarParkID": "056",
+            "CarParkName": {
+                "Zh_tw": "大安森林公園地下停車場"
+            },
+            "TotalSpaces": 1360,
+            "AvailableSpaces": 350,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 1360,
+                    "AvailableSpaces": 350
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 344,
+                    "AvailableSpaces": 229
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 29,
+                    "AvailableSpaces": 11
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 27,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:58+08:00"
+        },
+        {
+            "CarParkID": "057",
+            "CarParkName": {
+                "Zh_tw": "市民大道公中段停車場"
+            },
+            "TotalSpaces": 186,
+            "AvailableSpaces": 131,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 186,
+                    "AvailableSpaces": 131
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 3,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 3
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:51+08:00"
+        },
+        {
+            "CarParkID": "058",
+            "CarParkName": {
+                "Zh_tw": "市民大道中林段停車場"
+            },
+            "TotalSpaces": 496,
+            "AvailableSpaces": 250,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 496,
+                    "AvailableSpaces": 250
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:55+08:00"
+        },
+        {
+            "CarParkID": "059",
+            "CarParkName": {
+                "Zh_tw": "市民大道林金段停車場"
+            },
+            "TotalSpaces": 973,
+            "AvailableSpaces": 497,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 973,
+                    "AvailableSpaces": 497
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:55+08:00"
+        },
+        {
+            "CarParkID": "060",
+            "CarParkName": {
+                "Zh_tw": "台北時代寓所地下平面停車場"
+            },
+            "TotalSpaces": 137,
+            "AvailableSpaces": 79,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 137,
+                    "AvailableSpaces": 79
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:51+08:00"
+        },
+        {
+            "CarParkID": "062",
+            "CarParkName": {
+                "Zh_tw": "忠孝玉成停車場"
+            },
+            "TotalSpaces": 149,
+            "AvailableSpaces": 19,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 149,
+                    "AvailableSpaces": 19
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:14+08:00"
+        },
+        {
+            "CarParkID": "066",
+            "CarParkName": {
+                "Zh_tw": "揚雅立體停車場"
+            },
+            "TotalSpaces": 204,
+            "AvailableSpaces": 69,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 204,
+                    "AvailableSpaces": 69
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "067",
+            "CarParkName": {
+                "Zh_tw": "雙園國中地下停車場"
+            },
+            "TotalSpaces": 321,
+            "AvailableSpaces": 39,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 321,
+                    "AvailableSpaces": 39
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:04+08:00"
+        },
+        {
+            "CarParkID": "068",
+            "CarParkName": {
+                "Zh_tw": "文昌國小地下停車場"
+            },
+            "TotalSpaces": 222,
+            "AvailableSpaces": 12,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 222,
+                    "AvailableSpaces": 12
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 290,
+                    "AvailableSpaces": 119
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:55:51+08:00"
+        },
+        {
+            "CarParkID": "069",
+            "CarParkName": {
+                "Zh_tw": "青年公園棒球場地下停車場"
+            },
+            "TotalSpaces": 276,
+            "AvailableSpaces": 61,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 276,
+                    "AvailableSpaces": 61
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 118,
+                    "AvailableSpaces": 35
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 1,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:02+08:00"
+        },
+        {
+            "CarParkID": "070",
+            "CarParkName": {
+                "Zh_tw": "榮星花園地下停車場"
+            },
+            "TotalSpaces": 242,
+            "AvailableSpaces": 63,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 242,
+                    "AvailableSpaces": 63
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 67,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:59+08:00"
+        },
+        {
+            "CarParkID": "071",
+            "CarParkName": {
+                "Zh_tw": "朝陽公園地下停車場"
+            },
+            "TotalSpaces": 244,
+            "AvailableSpaces": 47,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 244,
+                    "AvailableSpaces": 47
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:24+08:00"
+        },
+        {
+            "CarParkID": "072",
+            "CarParkName": {
+                "Zh_tw": "福林公園地下停車場"
+            },
+            "TotalSpaces": 229,
+            "AvailableSpaces": 41,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 229,
+                    "AvailableSpaces": 41
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 62,
+                    "AvailableSpaces": 23
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 3,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:59+08:00"
+        },
+        {
+            "CarParkID": "073",
+            "CarParkName": {
+                "Zh_tw": "林森公園地下停車場"
+            },
+            "TotalSpaces": 850,
+            "AvailableSpaces": 354,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 850,
+                    "AvailableSpaces": 354
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 19,
+                    "AvailableSpaces": 7
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 17,
+                    "AvailableSpaces": 3
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:53+08:00"
+        },
+        {
+            "CarParkID": "074",
+            "CarParkName": {
+                "Zh_tw": "偶戲博物館地下停車場"
+            },
+            "TotalSpaces": 69,
+            "AvailableSpaces": 15,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 69,
+                    "AvailableSpaces": 15
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 35,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:52+08:00"
+        },
+        {
+            "CarParkID": "075",
+            "CarParkName": {
+                "Zh_tw": "中崙高中地下停車場"
+            },
+            "TotalSpaces": 347,
+            "AvailableSpaces": 88,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 347,
+                    "AvailableSpaces": 88
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:55+08:00"
+        },
+        {
+            "CarParkID": "078",
+            "CarParkName": {
+                "Zh_tw": "洲子立體停車場"
+            },
+            "TotalSpaces": 382,
+            "AvailableSpaces": 323,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 382,
+                    "AvailableSpaces": 323
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 6
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 4
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:00+08:00"
+        },
+        {
+            "CarParkID": "079",
+            "CarParkName": {
+                "Zh_tw": "僑安地下停車場"
+            },
+            "TotalSpaces": 422,
+            "AvailableSpaces": 274,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 422,
+                    "AvailableSpaces": 274
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 4
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 10,
+                    "AvailableSpaces": 3
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:52+08:00"
+        },
+        {
+            "CarParkID": "080",
+            "CarParkName": {
+                "Zh_tw": "龍門國中地下停車場"
+            },
+            "TotalSpaces": 730,
+            "AvailableSpaces": 54,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 730,
+                    "AvailableSpaces": 54
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 140,
+                    "AvailableSpaces": 85
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:52+08:00"
+        },
+        {
+            "CarParkID": "081",
+            "CarParkName": {
+                "Zh_tw": "康樂立體停車場"
+            },
+            "TotalSpaces": 153,
+            "AvailableSpaces": 9,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 153,
+                    "AvailableSpaces": 9
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:33+08:00"
+        },
+        {
+            "CarParkID": "082",
+            "CarParkName": {
+                "Zh_tw": "永盛公園地下停車場"
+            },
+            "TotalSpaces": 224,
+            "AvailableSpaces": 47,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 224,
+                    "AvailableSpaces": 47
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 62,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:35+08:00"
+        },
+        {
+            "CarParkID": "084",
+            "CarParkName": {
+                "Zh_tw": "麗湖國小地下停車場"
+            },
+            "TotalSpaces": 229,
+            "AvailableSpaces": 17,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 229,
+                    "AvailableSpaces": 17
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "085",
+            "CarParkName": {
+                "Zh_tw": "臺北花木批發市場地下停車場"
+            },
+            "TotalSpaces": 411,
+            "AvailableSpaces": 25,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 411,
+                    "AvailableSpaces": 25
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 352,
+                    "AvailableSpaces": 92
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "086",
+            "CarParkName": {
+                "Zh_tw": "振興公園地下停車場"
+            },
+            "TotalSpaces": 210,
+            "AvailableSpaces": 33,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 210,
+                    "AvailableSpaces": 33
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 102,
+                    "AvailableSpaces": 29
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:16+08:00"
+        },
+        {
+            "CarParkID": "087",
+            "CarParkName": {
+                "Zh_tw": "民有市場地下停車場"
+            },
+            "TotalSpaces": 334,
+            "AvailableSpaces": 50,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 334,
+                    "AvailableSpaces": 50
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 418,
+                    "AvailableSpaces": 264
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:49+08:00"
+        },
+        {
+            "CarParkID": "088",
+            "CarParkName": {
+                "Zh_tw": "三張里地下停車場"
+            },
+            "TotalSpaces": 354,
+            "AvailableSpaces": 52,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 354,
+                    "AvailableSpaces": 52
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 268,
+                    "AvailableSpaces": 242
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:30+08:00"
+        },
+        {
+            "CarParkID": "089",
+            "CarParkName": {
+                "Zh_tw": "春光公園地下停車場"
+            },
+            "TotalSpaces": 214,
+            "AvailableSpaces": 66,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 214,
+                    "AvailableSpaces": 66
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 68,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 1
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:31+08:00"
+        },
+        {
+            "CarParkID": "090",
+            "CarParkName": {
+                "Zh_tw": "萬板地下停車場"
+            },
+            "TotalSpaces": 181,
+            "AvailableSpaces": 28,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 181,
+                    "AvailableSpaces": 28
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "092",
+            "CarParkName": {
+                "Zh_tw": "濱江國中地下停車場"
+            },
+            "TotalSpaces": 209,
+            "AvailableSpaces": 57,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 209,
+                    "AvailableSpaces": 57
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 135,
+                    "AvailableSpaces": 108
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:50+08:00"
+        },
+        {
+            "CarParkID": "093",
+            "CarParkName": {
+                "Zh_tw": "建成公園地下停車場"
+            },
+            "TotalSpaces": 238,
+            "AvailableSpaces": 93,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 238,
+                    "AvailableSpaces": 93
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 172,
+                    "AvailableSpaces": 65
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:52+08:00"
+        },
+        {
+            "CarParkID": "096",
+            "CarParkName": {
+                "Zh_tw": "石牌國小地下停車場"
+            },
+            "TotalSpaces": 461,
+            "AvailableSpaces": 51,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 461,
+                    "AvailableSpaces": 51
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 177,
+                    "AvailableSpaces": 64
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 9,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 10,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:54+08:00"
+        },
+        {
+            "CarParkID": "097",
+            "CarParkName": {
+                "Zh_tw": "海光公園地下停車場"
+            },
+            "TotalSpaces": 105,
+            "AvailableSpaces": 10,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 105,
+                    "AvailableSpaces": 10
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:56+08:00"
+        },
+        {
+            "CarParkID": "098",
+            "CarParkName": {
+                "Zh_tw": "港富立體停車場(機械)"
+            },
+            "TotalSpaces": 245,
+            "AvailableSpaces": 68,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 245,
+                    "AvailableSpaces": 68
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:00+08:00"
+        },
+        {
+            "CarParkID": "099",
+            "CarParkName": {
+                "Zh_tw": "長安國小地下停車場"
+            },
+            "TotalSpaces": 284,
+            "AvailableSpaces": 161,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 284,
+                    "AvailableSpaces": 161
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 117,
+                    "AvailableSpaces": 47
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 3
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:15+08:00"
+        },
+        {
+            "CarParkID": "102",
+            "CarParkName": {
+                "Zh_tw": "承德公園地下停車場"
+            },
+            "TotalSpaces": 176,
+            "AvailableSpaces": 35,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 176,
+                    "AvailableSpaces": 35
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 60,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:53+08:00"
+        },
+        {
+            "CarParkID": "103",
+            "CarParkName": {
+                "Zh_tw": "南港國小地下停車場"
+            },
+            "TotalSpaces": 313,
+            "AvailableSpaces": 195,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 313,
+                    "AvailableSpaces": 195
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 86,
+                    "AvailableSpaces": 59
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 7
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-07-01T08:02:13+08:00"
+        },
+        {
+            "CarParkID": "105",
+            "CarParkName": {
+                "Zh_tw": "玉成國小地下停車場"
+            },
+            "TotalSpaces": 293,
+            "AvailableSpaces": 42,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 293,
+                    "AvailableSpaces": 42
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 28,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:50+08:00"
+        },
+        {
+            "CarParkID": "106",
+            "CarParkName": {
+                "Zh_tw": "蓬萊國小地下停車場"
+            },
+            "TotalSpaces": 286,
+            "AvailableSpaces": 54,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 286,
+                    "AvailableSpaces": 54
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 144,
+                    "AvailableSpaces": 54
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 3
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 1
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:56+08:00"
+        },
+        {
+            "CarParkID": "107",
+            "CarParkName": {
+                "Zh_tw": "信義國小地下停車場"
+            },
+            "TotalSpaces": 230,
+            "AvailableSpaces": 67,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 230,
+                    "AvailableSpaces": 67
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 50,
+                    "AvailableSpaces": 30
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 1
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:49+08:00"
+        },
+        {
+            "CarParkID": "109",
+            "CarParkName": {
+                "Zh_tw": "湖興立體停車場"
+            },
+            "TotalSpaces": 251,
+            "AvailableSpaces": 111,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 251,
+                    "AvailableSpaces": 111
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:55:08+08:00"
+        },
+        {
+            "CarParkID": "111",
+            "CarParkName": {
+                "Zh_tw": "蘭雅公園地下停車場"
+            },
+            "TotalSpaces": 155,
+            "AvailableSpaces": 24,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 155,
+                    "AvailableSpaces": 24
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:31+08:00"
+        },
+        {
+            "CarParkID": "113",
+            "CarParkName": {
+                "Zh_tw": "興隆公園地下停車場"
+            },
+            "TotalSpaces": 259,
+            "AvailableSpaces": 24,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 259,
+                    "AvailableSpaces": 24
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 64,
+                    "AvailableSpaces": 14
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:30+08:00"
+        },
+        {
+            "CarParkID": "114",
+            "CarParkName": {
+                "Zh_tw": "景美國小地下停車場"
+            },
+            "TotalSpaces": 253,
+            "AvailableSpaces": 43,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 253,
+                    "AvailableSpaces": 43
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 93,
+                    "AvailableSpaces": 18
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "119",
+            "CarParkName": {
+                "Zh_tw": "大龍國小地下停車場"
+            },
+            "TotalSpaces": 266,
+            "AvailableSpaces": 31,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 266,
+                    "AvailableSpaces": 31
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 106,
+                    "AvailableSpaces": 42
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:29+08:00"
+        },
+        {
+            "CarParkID": "120",
+            "CarParkName": {
+                "Zh_tw": "世貿公園地下停車場"
+            },
+            "TotalSpaces": 400,
+            "AvailableSpaces": 345,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 400,
+                    "AvailableSpaces": 345
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 194,
+                    "AvailableSpaces": 170
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 1,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 10,
+                    "AvailableSpaces": 9
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 4
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:59+08:00"
+        },
+        {
+            "CarParkID": "124",
+            "CarParkName": {
+                "Zh_tw": "社子國小地下停車場"
+            },
+            "TotalSpaces": 464,
+            "AvailableSpaces": 90,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 464,
+                    "AvailableSpaces": 90
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 211,
+                    "AvailableSpaces": 68
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 9,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 10,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:38+08:00"
+        },
+        {
+            "CarParkID": "128",
+            "CarParkName": {
+                "Zh_tw": "萬興國小地下停車場"
+            },
+            "TotalSpaces": 233,
+            "AvailableSpaces": 46,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 233,
+                    "AvailableSpaces": 46
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 187,
+                    "AvailableSpaces": 109
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 3
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:32+08:00"
+        },
+        {
+            "CarParkID": "129",
+            "CarParkName": {
+                "Zh_tw": "西康地下停車場"
+            },
+            "TotalSpaces": 86,
+            "AvailableSpaces": 11,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 86,
+                    "AvailableSpaces": 11
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "165",
+            "CarParkName": {
+                "Zh_tw": "玉成公園地下停車場"
+            },
+            "TotalSpaces": 412,
+            "AvailableSpaces": 25,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 412,
+                    "AvailableSpaces": 25
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 83,
+                    "AvailableSpaces": 16
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 1,
+                    "AvailableSpaces": 1
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 10,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 9,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:02+08:00"
+        },
+        {
+            "CarParkID": "187",
+            "CarParkName": {
+                "Zh_tw": "松山工農地下停車場"
+            },
+            "TotalSpaces": 239,
+            "AvailableSpaces": 53,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 239,
+                    "AvailableSpaces": 53
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 189,
+                    "AvailableSpaces": 70
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 1
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:58+08:00"
+        },
+        {
+            "CarParkID": "188",
+            "CarParkName": {
+                "Zh_tw": "松山車站地下停車場"
+            },
+            "TotalSpaces": 430,
+            "AvailableSpaces": 191,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 430,
+                    "AvailableSpaces": 191
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:29+08:00"
+        },
+        {
+            "CarParkID": "193",
+            "CarParkName": {
+                "Zh_tw": "松山國小地下停車場"
+            },
+            "TotalSpaces": 286,
+            "AvailableSpaces": 25,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 286,
+                    "AvailableSpaces": 25
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 135,
+                    "AvailableSpaces": 20
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:43+08:00"
+        },
+        {
+            "CarParkID": "195",
+            "CarParkName": {
+                "Zh_tw": "臺北製糖所文化園區地下停車場"
+            },
+            "TotalSpaces": 70,
+            "AvailableSpaces": 6,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 70,
+                    "AvailableSpaces": 6
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "215",
+            "CarParkName": {
+                "Zh_tw": "莒光立體停車場"
+            },
+            "TotalSpaces": 108,
+            "AvailableSpaces": 16,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 108,
+                    "AvailableSpaces": 16
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "229",
+            "CarParkName": {
+                "Zh_tw": "嘉興公園地下停車場"
+            },
+            "TotalSpaces": 194,
+            "AvailableSpaces": 29,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 194,
+                    "AvailableSpaces": 29
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 59,
+                    "AvailableSpaces": 8
+                },
+                {
+                    "SpaceType": 3,
+                    "NumberOfSpaces": 2,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:57+08:00"
+        },
+        {
+            "CarParkID": "249",
+            "CarParkName": {
+                "Zh_tw": "啟聰學校地下停車場"
+            },
+            "TotalSpaces": 175,
+            "AvailableSpaces": 2,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 175,
+                    "AvailableSpaces": 2
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 94,
+                    "AvailableSpaces": 11
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 5,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:01+08:00"
+        },
+        {
+            "CarParkID": "372",
+            "CarParkName": {
+                "Zh_tw": "八德立體停車場"
+            },
+            "TotalSpaces": 310,
+            "AvailableSpaces": 96,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 310,
+                    "AvailableSpaces": 96
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 382,
+                    "AvailableSpaces": 256
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 12,
+                    "AvailableSpaces": 4
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:53+08:00"
+        },
+        {
+            "CarParkID": "640",
+            "CarParkName": {
+                "Zh_tw": "萬華車站地下停車場"
+            },
+            "TotalSpaces": 297,
+            "AvailableSpaces": 85,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 297,
+                    "AvailableSpaces": 85
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "666",
+            "CarParkName": {
+                "Zh_tw": "明倫社會住宅地下停車場"
+            },
+            "TotalSpaces": 239,
+            "AvailableSpaces": 49,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 239,
+                    "AvailableSpaces": 49
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 293,
+                    "AvailableSpaces": 155
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:42+08:00"
+        },
+        {
+            "CarParkID": "702",
+            "CarParkName": {
+                "Zh_tw": "大港墘公園地下停車場"
+            },
+            "TotalSpaces": 258,
+            "AvailableSpaces": 168,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 258,
+                    "AvailableSpaces": 168
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 178,
+                    "AvailableSpaces": 146
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 3
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 6,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:40+08:00"
+        },
+        {
+            "CarParkID": "713",
+            "CarParkName": {
+                "Zh_tw": "新奇岩社會住宅地下停車場"
+            },
+            "TotalSpaces": 170,
+            "AvailableSpaces": 21,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 170,
+                    "AvailableSpaces": 21
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:58+08:00"
+        },
+        {
+            "CarParkID": "714",
+            "CarParkName": {
+                "Zh_tw": "瑞光社會住宅地下停車場"
+            },
+            "TotalSpaces": 194,
+            "AvailableSpaces": 69,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 194,
+                    "AvailableSpaces": 69
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:47+08:00"
+        },
+        {
+            "CarParkID": "718",
+            "CarParkName": {
+                "Zh_tw": "青年一期社會住宅地下停車場"
+            },
+            "TotalSpaces": 133,
+            "AvailableSpaces": 37,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 133,
+                    "AvailableSpaces": 37
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 160,
+                    "AvailableSpaces": 15
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:02+08:00"
+        },
+        {
+            "CarParkID": "719",
+            "CarParkName": {
+                "Zh_tw": "健康1區社會住宅地下停車場"
+            },
+            "TotalSpaces": 135,
+            "AvailableSpaces": 24,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 135,
+                    "AvailableSpaces": 24
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 156,
+                    "AvailableSpaces": 93
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:57:02+08:00"
+        },
+        {
+            "CarParkID": "720",
+            "CarParkName": {
+                "Zh_tw": "健康2區社會住宅地下停車場"
+            },
+            "TotalSpaces": 149,
+            "AvailableSpaces": 12,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 149,
+                    "AvailableSpaces": 12
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 174,
+                    "AvailableSpaces": 90
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:02+08:00"
+        },
+        {
+            "CarParkID": "721",
+            "CarParkName": {
+                "Zh_tw": "東明甲區社會住宅地下停車場"
+            },
+            "TotalSpaces": 65,
+            "AvailableSpaces": 5,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 65,
+                    "AvailableSpaces": 5
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 90,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:51+08:00"
+        },
+        {
+            "CarParkID": "722",
+            "CarParkName": {
+                "Zh_tw": "東明乙區社會住宅地下停車場"
+            },
+            "TotalSpaces": 323,
+            "AvailableSpaces": 218,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 323,
+                    "AvailableSpaces": 218
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 373,
+                    "AvailableSpaces": 146
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:28+08:00"
+        },
+        {
+            "CarParkID": "760",
+            "CarParkName": {
+                "Zh_tw": "延平國小地下停車場"
+            },
+            "TotalSpaces": 309,
+            "AvailableSpaces": 43,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 309,
+                    "AvailableSpaces": 43
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 99,
+                    "AvailableSpaces": 18
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 7,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:35+08:00"
+        },
+        {
+            "CarParkID": "768",
+            "CarParkName": {
+                "Zh_tw": "興隆D1社會住宅地下停車場"
+            },
+            "TotalSpaces": 128,
+            "AvailableSpaces": 30,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 128,
+                    "AvailableSpaces": 30
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 114,
+                    "AvailableSpaces": 16
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 3,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:56:39+08:00"
+        },
+        {
+            "CarParkID": "783",
+            "CarParkName": {
+                "Zh_tw": "小彎社會住宅地下停車場"
+            },
+            "TotalSpaces": 237,
+            "AvailableSpaces": 22,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 237,
+                    "AvailableSpaces": 22
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 346,
+                    "AvailableSpaces": 113
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "784",
+            "CarParkName": {
+                "Zh_tw": "廣慈社會住宅1區地下停車場"
+            },
+            "TotalSpaces": 369,
+            "AvailableSpaces": 4,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 369,
+                    "AvailableSpaces": 4
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 178,
+                    "AvailableSpaces": 52
+                },
+                {
+                    "SpaceType": 7,
+                    "NumberOfSpaces": 8,
+                    "AvailableSpaces": 0
+                },
+                {
+                    "SpaceType": 9,
+                    "NumberOfSpaces": 4,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:55:11+08:00"
+        },
+        {
+            "CarParkID": "785",
+            "CarParkName": {
+                "Zh_tw": "廣慈社會住宅2區地下停車場"
+            },
+            "TotalSpaces": 268,
+            "AvailableSpaces": 29,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 268,
+                    "AvailableSpaces": 29
+                },
+                {
+                    "SpaceType": 2,
+                    "NumberOfSpaces": 294,
+                    "AvailableSpaces": 11
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 0,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        },
+        {
+            "CarParkID": "829",
+            "CarParkName": {
+                "Zh_tw": "安康公車調度站臨時平面停車場"
+            },
+            "TotalSpaces": 115,
+            "AvailableSpaces": 0,
+            "Availabilities": [
+                {
+                    "SpaceType": 1,
+                    "NumberOfSpaces": 115,
+                    "AvailableSpaces": 0
+                }
+            ],
+            "ServiceStatus": 1,
+            "FullStatus": 2,
+            "ChargeStatus": 1,
+            "DataCollectTime": "2025-08-03T22:54:24+08:00"
+        }
+    ]
+}

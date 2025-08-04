@@ -1,0 +1,207 @@
+{% load static %}
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ParkingSpace 儀表板</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .navbar-custom {
+        background-color: white;
+        box-shadow: none;
+        border-bottom: none;
+      }
+
+      .navbar-brand {
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      .banner {
+        height: 300px;
+        background-image: url("/media/parking_images/background.webp");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .banner-text {
+        z-index: 1;
+        font-size: 2rem;
+        padding: 0 1rem;
+      }
+
+      .banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 0;
+      }
+
+      .user-info {
+        padding: 1.5rem;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        margin-bottom: 2rem;
+      }
+
+      .parking-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s;
+      }
+
+      .parking-card:hover {
+        transform: translateY(-3px);
+      }
+
+      .parking-card img {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+      }
+
+      @media (max-width: 991px) {
+        .banner-text {
+          font-size: 1.5rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .banner-text {
+          font-size: 1.2rem;
+        }
+
+        .navbar-nav {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .nav-item {
+          padding: 5px 0;
+        }
+
+        .user-info,
+        .parking-card {
+          padding: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <div class="text-start">
+          <span class="navbar-brand fw-bold">ParkingSpace</span>
+        </div>
+
+        <div class="center-username">
+          <span>👤 {{ user.username }}</span>
+        </div>
+
+        <div class="text-end">
+          <a
+            href="{% url 'member_center' %}"
+            class="btn btn-outline-secondary btn-sm me-2"
+          >
+            <i class="bi bi-person-fill me-1"></i> 會員中心
+          </a>
+          <form action="{% url 'logout' %}" method="post" class="d-inline">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-outline-danger btn-sm">
+              <i class="bi bi-box-arrow-right me-1"></i> 登出
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="banner-text">
+        <h1>簡易停車位搜尋系統</h1>
+        <p>輕鬆尋找，方便出行</p>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div
+        class="d-flex justify-content-between align-items-center mb-4 flex-wrap"
+      >
+        {% comment %}
+        <a
+          href="https://www.google.com/maps"
+          target="_blank"
+          class="btn btn-outline-primary mb-2"
+          >🧭 一鍵導航</a
+        >
+        {% endcomment %}
+        {% comment %} <form
+          method="get"
+          action="{% url 'dashboard' %}"
+          class="d-flex align-items-center mb-2"
+        >
+          <label for="sort" class="me-2">排序依據：</label>
+          <select
+            name="sort"
+            id="sort"
+            class="form-select"
+            style="width: auto"
+            onchange="this.form.submit()"
+          >
+            <option value="">-- 選擇 --</option>
+            <option value="distance">距離優先</option>
+            <option value="price">價格優先</option>
+            <option value="vacancy">空位優先</option>
+          </select>
+        </form> {% endcomment %}
+      </div>
+
+      {% include 'map.html' %}
+    <div style="margin-top: 40px;"></div>
+      <div class="row">
+        {% for lot in parking_lots %}
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="parking-card">
+            <img src="{{ lot.image.url }}" alt="停車場圖片" />
+            <h5>{{ lot.name }}</h5>
+            <p>總車位：{{ lot.total_slots }}</p>
+            <p>剩餘車位：{{ lot.available_slots }}</p>
+            <p>每小時收費：{{ lot.price_per_hour }} 元</p>
+            <a href="{% url 'reserve' lot.id %}" class="btn btn-primary w-100"
+              >📅 預約</a
+            >
+          </div>
+        </div>
+        {% empty %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>附近停車場 Leaflet 地圖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <style>
+      #map {
+        height: 500px;
+        width: 100%;
+        margin-top: 1em;
+      }
+      .leaflet-popup-content {
+        font-size: 14px;
+      }
+      .custom-img {
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6 col-12 mb-4 mb-md-0">
+          <img
+            src="/media/parking_images/search.jpg"
+            alt="停車圖"
+            class="img-fluid rounded shadow custom-img"
+          />
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12">
+          <h5 class="fw-bold">搜尋可用停車位</h5>
+          <p class="text-muted">
+            <i class="bi bi-quote"></i>
+            透過我們的系統，輕鬆搜尋附近的可用停車位，您只需輸入目的地，系統會自動為您找到最佳選擇。
+          </p>
+
+          <form id="searchForm" class="mb-3">
+            <input
+              type="text"
+              id="addressInput"
+              placeholder="請輸入地址"
+              class="form-control mb-2"
+            />
+            <div class="form-check mb-3">
+              <input
+                type="checkbox"
+                id="cheapestOnly"
+                class="form-check-input"
+              />
+              <label class="form-check-label" for="cheapestOnly"
+                >低價優先</label
+              >
+            </div>
+            <button type="submit" class="btn btn-dark w-100">立即搜尋</button>
+          </form>
+          <button onclick="getLocation()" class="btn btn-outline-primary mb-2">🧭 一鍵搜尋</button>
+          <p id="result"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="map" style="height: 500px; width: 100%; margin-top: 1em"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      //Taipei Taoyuan Taichung Tainan Kaohsiung Keelung ChanghuaCounty YunlinCounty
+      // PingtungCounty YilanCounty HualienCounty KinmenCounty
+      const redIcon = new L.Icon({
+        iconUrl:
+          "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png",
+        iconRetinaUrl:
+          "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png",
+        shadowUrl:
+          "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41],
+      });
+
+      let map = L.map("map").setView([25.033, 121.5654], 13); // 台北市預設中心
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 18,
+        attribution: "© OpenStreetMap",
+      }).addTo(map);
+
+      let markers = [];
+
+      // 表單送出處理
+      document
+        .getElementById("searchForm")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault(); // 阻止原本提交
+
+          const address = document.getElementById("addressInput").value.trim();
+          if (!address) return alert("請輸入地址");
+
+          try {
+            // 第一步：用地址換經緯度
+            const geoRes = await fetch(
+              `/myapp/geocode_address?address=${encodeURIComponent(address)}`
+            );
+            const geoData = await geoRes.json();
+            if (!geoRes.ok) throw new Error(geoData.error || "找不到位置");
+
+            const { lat, lon, city } = geoData;
+            console.log(geoData);
+
+            // 移動地圖
+            map.setView([lat, lon], 13);
+
+            // 清除舊的 marker
+            markers.forEach((m) => map.removeLayer(m));
+            markers = [];
+
+            // 標記搜尋中心點
+            const centerMarker = L.marker([lat, lon], { icon: redIcon })
+              .addTo(map)
+              .bindPopup(`查詢位置: ${lat}, ${lon}`)
+              .openPopup();
+            markers.push(centerMarker);
+
+            // 第二步: 更新停車資訊至DB
+            console.log("UpdataDB-city:" + city);
+            const upDBRes = await fetch(
+              `/myapp/update_PSA_CP/?city=${city}`
+            ).catch((error) => {
+              console.error("❌ 錯誤:", error);
+            });
+
+            //// 第三步：用經緯度查詢附近停車場
+            console.log("Search-point-city:" + city);
+            //const city = 'Taipei'; // 你可依實際邏輯自動判斷城市
+            const cheapestOnly =
+              document.getElementById("cheapestOnly").checked;
+            let url;
+            if (cheapestOnly) {
+              url = `/myapp/cheapest_nearby_parking?lat=${lat}&lon=${lon}&city=${encodeURIComponent(city)}`;
+            } else {
+              url = `/myapp/nearby_parking?lat=${lat}&lon=${lon}&city=${encodeURIComponent(city)}`;
+            }
+            fetch(url)
+              .then((res) => res.json())
+              .then((data) => {
+                // 加入停車場標記
+                for (const p of data.data) {
+                  console.log(p);
+                  const marker = L.marker([p.lat, p.lon]).addTo(map).bindPopup(`
+              <b>${p.name}</b><br/>
+              可用：${p.available_spaces} / ${p.total_spaces}<br/>
+              距離：${p.distance_km} 公里<br/>
+              價格:${p.hourly_fee}元<br/>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}" target="_blank">➤ 導航</a>
+            `);
+                  markers.push(marker);
+                }
+              });
+          } catch (err) {
+            alert(err.message);
+          }
+        });
+    </script>
+    
+    <script>
+    async function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                async function(position) {
+                    const lat = position.coords.latitude;
+                    const lon = position.coords.longitude;
+
+                    try {
+                        // 第一步：透過經緯度查詢城市英文
+                        const res = await fetch(`/get_location_info/?lat=${lat}&lon=${lon}`);
+                        const data = await res.json();
+
+                        if (data.city) {
+                            const city = data.city;
+                            document.getElementById("result").innerText =
+                                `你的位置：(${lat}, ${lon})，城市：${city}`;
+
+                            console.log("位置資訊：", data);
+
+                            // 移動地圖
+                            map.setView([lat, lon], 13);
+
+                            // 清除舊的 marker
+                            markers.forEach((m) => map.removeLayer(m));
+                            markers = [];
+
+                            // 標記搜尋中心點
+                            const centerMarker = L.marker([lat, lon], { icon: redIcon })
+                                .addTo(map)
+                                .bindPopup(`查詢位置: ${lat}, ${lon}`)
+                                .openPopup();
+                            markers.push(centerMarker);
+
+                            // 第二步：更新停車資訊到資料庫
+                            console.log("更新 DB - city: " + city);
+                            await fetch(`/myapp/update_PSA_CP/?city=${city}`);
+
+                            // 第三步：查詢附近停車場（最便宜 or 全部）
+                            const cheapestOnly = document.getElementById("cheapestOnly").checked;
+                            let url = cheapestOnly
+                                ? `/myapp/cheapest_nearby_parking?lat=${lat}&lon=${lon}&city=${encodeURIComponent(city)}`
+                                : `/myapp/nearby_parking?lat=${lat}&lon=${lon}&city=${encodeURIComponent(city)}`;
+
+                            const nearbyRes = await fetch(url);
+                            const nearbyData = await nearbyRes.json();
+
+                            for (const p of nearbyData.data) {
+                                console.log(p);
+                                const marker = L.marker([p.lat, p.lon]).addTo(map).bindPopup(`
+                                    <b>${p.name}</b><br/>
+                                    可用：${p.available_spaces} / ${p.total_spaces}<br/>
+                                    距離：${p.distance_km} 公里<br/>
+                                    價格:${p.hourly_fee}元<br/>
+                                    <a href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}" target="_blank">➤ 導航</a>
+                                `);
+                                markers.push(marker);
+                            }
+
+                        } else {
+                            document.getElementById("result").innerText = "找不到城市資訊";
+                        }
+
+                    } catch (err) {
+                        console.error(err);
+                        alert("發生錯誤：" + err.message);
+                    }
+                },
+                function(error) {
+                    document.getElementById("result").innerText = "無法定位：" + error.message;
+                }
+            );
+        } else {
+            document.getElementById("result").innerText = "瀏覽器不支援定位功能";
+        }
+    }
+</script>
+
+  </body>
+</html>
