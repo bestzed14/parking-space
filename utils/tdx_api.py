@@ -136,9 +136,9 @@ def fetch_data(token,function_key,City):
     response = requests.get(data_url, headers=headers)
     response.raise_for_status()
     data = response.json()
-    with open(f"{function_key}_{City}.json", 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-    print(f"✅ 成功儲存為 {function_key}_{City}.json")
+    # with open(f"{function_key}_{City}.json", 'w', encoding='utf-8') as f:
+    #     json.dump(data, f, ensure_ascii=False, indent=4)
+    # print(f"✅ 成功儲存為 {function_key}_{City}.json")
 
     save_to_db(data, function_key,City)
     # 更新或建立 db_updatetime 記錄

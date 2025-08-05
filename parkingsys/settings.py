@@ -94,28 +94,28 @@ WSGI_APPLICATION = "parkingsys.wsgi.application"
 #         "NAME": BASE_DIR / "db.sqlite3",
 #     }
 # }
-# DATABASES = {
-#        'default': {
-#            'ENGINE': 'django.db.backends.mysql',
-#            'NAME': 'parkingdb',
-#            'USER': 'root',
-#            'PASSWORD': 'asdf1234',
-#            'HOST': 'localhost',  # Or your MariaDB host IP/name
-#            'PORT': '3306',       # Default MariaDB port
-#        }
-#    }
+DATABASES = {
+       'default': {
+           'ENGINE': 'django.db.backends.mysql',
+           'NAME': 'parkingdb',
+           'USER': 'root',
+           'PASSWORD': 'asdf1234',
+           'HOST': 'localhost',  # Or your MariaDB host IP/name
+           'PORT': '3306',       # Default MariaDB port
+       }
+   }
 
 # 本番用
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ih3n4yimjhu6vqq4',
-        'USER': 'uvb8mo9kh6k9s8bt',
-        'PASSWORD': 'l3tpyqiql1qf6o62',
-        'HOST': 'am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', # e.g., 'localhost' or an IP address
-        'PORT': '3306', # Default MariaDB port
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'ih3n4yimjhu6vqq4',
+#         'USER': 'uvb8mo9kh6k9s8bt',
+#         'PASSWORD': 'l3tpyqiql1qf6o62',
+#         'HOST': 'am1shyeyqbxzy8gc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', # e.g., 'localhost' or an IP address
+#         'PORT': '3306', # Default MariaDB port
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -170,12 +170,12 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_HOST_USER = "zong.drive@gmail.com"
 EMAIL_HOST_PASSWORD = "wzkxyafbbqhwnxpx"
-EMAIL_PORT = "465"
+EMAIL_PORT = "587"
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 ADMINS = (('jessica', 'zong.drive@gmail.com'),)
 MANAGERS = (('jessica', 'zong.drive@gmail.com'),)
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static ')
-django_heroku.settings(locals())
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static ')
+# django_heroku.settings(locals())

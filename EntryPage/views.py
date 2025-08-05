@@ -55,28 +55,35 @@ def register_view(request):
             username = form.cleaned_data['username']
             email = form.cleaned_data['email']
             password = form.cleaned_data['password1']
-
+            role = form.cleaned_data['role']
             # 建立使用者帳號
             if User.objects.filter(username=username).exists():
                 messages.error(request, "此帳號已被註冊")
             else:
-                User.objects.create_user(username=username, email=email, password=password)
-                messages.success(request, "註冊成功，請登入！")
-                return redirect('login')
+                user=User.objects.create_user(username=username, email=email, password=password)
+                user.profile.role = role
+                user.profile.save()
+                send_verification_email(user)
+                return render(request, 'message.html', {'msg': '註冊成功，請至信箱點擊驗證連結'})
         else:
             messages.error(request, "請確認表單填寫正確")
     else:
         form = RegisterForm()
-
-    return render(request, 'register.html', {'form': form})
-
+        new_key = CaptchaStore.generate_key()
+        image_url = captcha_image_url(new_key)
+    return render(request, 'register.html', {
+        'form': form,
+        'captcha_key': new_key,
+        'captcha_image_url': image_url
+    })
 
 def send_verification_email(user):
     token = user.profile.verification_token
-    # url = f"http://127.0.0.1:8000/EntryPage/verify-email/{token}/"  #正式網域要記得換
-    url = f"parking-space-06b78525c978.herokuapp.com/EntryPage/verify-email/{token}/"  #正式網域要記得換
+    url = f"http://127.0.0.1:8000/EntryPage/verify-email/{token}/"  #正式網域要記得換
+    # url = f"parking-space-06b78525c978.herokuapp.com/EntryPage/verify-email/{token}/"  #正式網域要記得換
     subject = "請驗證你的帳號"
     message = f"請點擊以下連結驗證帳號：\n\n{url}"
+    print("已寄送EMAIL")
     send_mail(subject, message, settings.EMAIL_HOST_USER, [user.email])
 
 def verify_email_view(request, token):
